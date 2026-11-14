@@ -1,0 +1,56 @@
+id: example-noisy
+title: Senior Backend Engineer - Payments
+company: Kopi Nusantara
+cv: |
+  RINA PRATAMA
+  Backend Engineer
+  rina.pratama@example.com | +62 811 000 111 | Jakarta, Indonesia
+  https://example.com/portfolio
+
+  SUMMARY
+  Backend engineer with 6 years building payment and reporting services in Go and Python.
+
+  EXPERIENCE
+  Senior Backend Engineer, Nusantara Payments (2021 - present)
+  - Led the migration of the settlement service from a monolith to four Go services.
+  - Cut p99 latency of the payout API from 900 ms to 240 ms by adding a Redis read cache.
+  - Wrote the reconciliation job in Python that matches 1.2 million daily transactions.
+
+  Backend Engineer, Kopi Digital (2019 - 2021)
+  - Built the order service in Go with PostgreSQL and gRPC.
+  - Introduced integration tests that raised coverage of the checkout package to 78%.
+
+  EDUCATION
+  BSc Computer Science, Universitas Contoh (2019)
+
+  SKILLS
+  Go, Python, PostgreSQL, Redis, gRPC, Docker, Kubernetes, Terraform, Kafka
+
+  CERTIFICATIONS
+  AWS Certified Solutions Architect - Associate (2022)
+jd: |
+  Jobs you may also like
+
+  Backend Engineer - Remote
+  PT Angin Segar | Jakarta
+
+  Apply now
+
+  Senior Backend Engineer - Payments
+  Kopi Nusantara | Jakarta | Hybrid
+
+  About the role
+  We are hiring a senior backend engineer for our payments platform. You will own
+  settlement and reconciliation services.
+
+  What we ask
+  - 5+ years of professional backend engineering experience.
+  - Strong Go.
+  - Experience with PostgreSQL.
+  - Hands-on experience with Kubernetes.
+
+  Recommended for you
+  Frontend Engineer at Toko Online
+  Data Analyst at Gudang Data
+  Read more
+example: true

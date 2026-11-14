@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background: var(--bg);
+  }
+
+  body {
+    @apply bg-bg font-sans text-body text-ink antialiased;
+  }
+
+  /* Numerals in tables and counts must not jitter as values change. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* One focus treatment everywhere; never removed, only repositioned. */
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-accent;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  // One-off scripts under data/ import `app.*` and are run with
+  // PYTHONPATH=backend; teach Pylance the same root so the editor agrees.
+  "python.analysis.extraPaths": ["backend"],
+  // uv is installed into the user site-packages Scripts folder, which is not
+  // on the machine PATH; append it for new integrated terminals only.
+  "terminal.integrated.env.windows": {
+    "PATH": "${env:PATH};${env:APPDATA}\\Python\\Python314\\Scripts"
+  }
+}

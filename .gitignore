@@ -1,0 +1,38 @@
+# Runtime data (CVs, JDs, database, uploads, backups) never enters git.
+data/
+*.db
+*.db-wal
+*.db-shm
+uploads/
+.env
+.env.*
+!.env.example
+
+# Local-only evaluation artifacts: real pages and hand-made gold labels.
+eval/reports/
+eval/cases/local/
+eval/gold/local/
+eval/baseline.json
+samples/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# Frontend (Stage B)
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+frontend/blob-report/
+
+# Logs and editor noise
+*.log
+.DS_Store
+
+node_modules/

@@ -1,0 +1,115 @@
+{
+  "$defs": {
+    "SuggestionOut": {
+      "additionalProperties": false,
+      "properties": {
+        "original_text": {
+          "anyOf": [
+            {
+              "maxLength": 1200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Text"
+        },
+        "proposed_text": {
+          "anyOf": [
+            {
+              "maxLength": 1200,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Proposed Text"
+        },
+        "rationale": {
+          "default": "",
+          "maxLength": 400,
+          "title": "Rationale",
+          "type": "string"
+        },
+        "requirement_index": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Requirement Index"
+        },
+        "scope": {
+          "$ref": "#/$defs/SuggestionScope",
+          "default": "general"
+        },
+        "target_section": {
+          "$ref": "#/$defs/SuggestionTarget",
+          "default": "other"
+        },
+        "type": {
+          "$ref": "#/$defs/SuggestionType",
+          "default": "reword"
+        }
+      },
+      "title": "SuggestionOut",
+      "type": "object"
+    },
+    "SuggestionScope": {
+      "description": "Per D9: an edit that improves the master CV, or one aimed at this post.",
+      "enum": [
+        "general",
+        "job_specific"
+      ],
+      "title": "SuggestionScope",
+      "type": "string"
+    },
+    "SuggestionTarget": {
+      "enum": [
+        "summary",
+        "experience",
+        "skills",
+        "projects",
+        "education",
+        "certifications",
+        "other"
+      ],
+      "title": "SuggestionTarget",
+      "type": "string"
+    },
+    "SuggestionType": {
+      "description": "`GAP_NOTE` carries no rewrite text: it names a gap the CV cannot close.",
+      "enum": [
+        "reword",
+        "reorder",
+        "emphasize",
+        "add_keyword",
+        "gap_note"
+      ],
+      "title": "SuggestionType",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "suggestions": {
+      "items": {
+        "$ref": "#/$defs/SuggestionOut"
+      },
+      "maxItems": 12,
+      "title": "Suggestions",
+      "type": "array"
+    }
+  },
+  "title": "SuggestionBatch",
+  "type": "object"
+}

@@ -1,0 +1,26 @@
+# Hand labels for example-noisy. Only the Kopi Nusantara post counts: the page
+# also carries two unrelated job teasers and an "apply now" button.
+#
+# Granularity: one entry per requirement the post states, including the duty in
+# "About the role". The hiring sentence describes the role, not a requirement,
+# so it is not labelled.
+requirements:
+  - text: 5+ years of professional backend engineering experience
+    verdict: strong
+    note: The summary states six years of backend work.
+
+  - text: Strong Go
+    verdict: strong
+    note: The order service line names Go and gRPC.
+
+  - text: Experience with PostgreSQL
+    verdict: strong
+    note: The order service line names PostgreSQL.
+
+  - text: Hands-on experience with Kubernetes
+    verdict: partial
+    note: Kubernetes appears in the skills list only.
+
+  - text: Own settlement and reconciliation services
+    verdict: strong
+    note: Led the settlement migration and wrote the reconciliation job.

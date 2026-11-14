@@ -1,0 +1,190 @@
+{
+  "$defs": {
+    "Importance": {
+      "description": "Knockout gaps are the only ones that can cap the fit label.",
+      "enum": [
+        "knockout",
+        "weight",
+        "nice"
+      ],
+      "title": "Importance",
+      "type": "string"
+    },
+    "JdRequirementOut": {
+      "additionalProperties": false,
+      "properties": {
+        "category": {
+          "$ref": "#/$defs/RequirementCategory",
+          "default": "other"
+        },
+        "importance": {
+          "$ref": "#/$defs/Importance",
+          "default": "nice"
+        },
+        "jd_quote": {
+          "minLength": 3,
+          "title": "Jd Quote",
+          "type": "string"
+        },
+        "keywords": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 12,
+          "title": "Keywords",
+          "type": "array"
+        },
+        "text": {
+          "maxLength": 400,
+          "minLength": 3,
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "text",
+        "jd_quote"
+      ],
+      "title": "JdRequirementOut",
+      "type": "object"
+    },
+    "RequirementCategory": {
+      "enum": [
+        "skill",
+        "experience",
+        "education",
+        "certification",
+        "language",
+        "tool",
+        "domain",
+        "logistics",
+        "other"
+      ],
+      "title": "RequirementCategory",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "S1 output. `is_job_post` is what turns into JD_NOT_FOUND / JD_MULTIPLE_JOBS.",
+  "properties": {
+    "company": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Company"
+    },
+    "is_job_post": {
+      "default": true,
+      "title": "Is Job Post",
+      "type": "boolean"
+    },
+    "job_count": {
+      "default": 1,
+      "maximum": 20,
+      "minimum": 0,
+      "title": "Job Count",
+      "type": "integer"
+    },
+    "languages": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Languages",
+      "type": "array"
+    },
+    "location": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Location"
+    },
+    "requirements": {
+      "items": {
+        "$ref": "#/$defs/JdRequirementOut"
+      },
+      "maxItems": 60,
+      "title": "Requirements",
+      "type": "array"
+    },
+    "salary_text": {
+      "anyOf": [
+        {
+          "maxLength": 300,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Salary Text"
+    },
+    "seniority": {
+      "anyOf": [
+        {
+          "maxLength": 80,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Seniority"
+    },
+    "title": {
+      "anyOf": [
+        {
+          "maxLength": 200,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Title"
+    },
+    "work_authorization_text": {
+      "anyOf": [
+        {
+          "maxLength": 300,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Work Authorization Text"
+    },
+    "work_mode": {
+      "default": "unknown",
+      "enum": [
+        "remote",
+        "hybrid",
+        "onsite",
+        "unknown"
+      ],
+      "title": "Work Mode",
+      "type": "string"
+    }
+  },
+  "title": "JdStructure",
+  "type": "object"
+}

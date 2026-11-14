@@ -1,0 +1,25 @@
+{
+  "additionalProperties": false,
+  "description": "S7 output. `asserted_requirement_indexes` is what the guard checks.",
+  "properties": {
+    "asserted_requirement_indexes": {
+      "items": {
+        "type": "integer"
+      },
+      "maxItems": 20,
+      "title": "Asserted Requirement Indexes",
+      "type": "array"
+    },
+    "text": {
+      "maxLength": 2000,
+      "minLength": 40,
+      "title": "Text",
+      "type": "string"
+    }
+  },
+  "required": [
+    "text"
+  ],
+  "title": "CoverNoteDraft",
+  "type": "object"
+}

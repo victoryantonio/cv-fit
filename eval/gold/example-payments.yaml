@@ -1,0 +1,50 @@
+# Hand labels for example-payments. Synthetic CV, invented company.
+#
+# Granularity: one entry per requirement the post states, including the duties
+# in "About the role" and the "Nice to have" bullets. The hiring sentence
+# ("We are hiring a senior backend engineer...") describes the role, not a
+# requirement, so it is not labelled.
+requirements:
+  - text: 5+ years of professional backend engineering experience
+    verdict: strong
+    note: The summary states six years of backend work.
+
+  - text: Strong Go
+    verdict: strong
+    note: The order service line names Go and gRPC.
+
+  - text: Experience with PostgreSQL, including query tuning on large tables
+    verdict: partial
+    note: PostgreSQL is named, query tuning is not.
+
+  - text: Hands-on experience with Kubernetes in production
+    verdict: partial
+    note: Kubernetes appears in the skills list only; nothing says production.
+
+  - text: Familiarity with Kafka or another event streaming platform
+    verdict: partial
+    note: Kafka is listed as a skill, with no usage behind it.
+
+  - text: Excellent written English
+    verdict: gap
+    note: The CV is written in English but never claims the skill.
+
+  - text: A degree in computer science
+    verdict: strong
+    note: BSc Computer Science, 2019.
+
+  - text: Experience in fintech or payments
+    verdict: strong
+    note: Two payments employers plus the settlement migration.
+
+  - text: Terraform for infrastructure as code
+    verdict: partial
+    note: Terraform is in the skills list with no usage behind it.
+
+  - text: Own the settlement and reconciliation services
+    verdict: strong
+    note: Led the settlement migration and wrote the reconciliation job.
+
+  - text: Collaborate with the risk team on payout limits
+    verdict: gap
+    note: Payout latency is mentioned; risk work and payout limits are not.

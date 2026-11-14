@@ -1,0 +1,51 @@
+{
+  "$defs": {
+    "Verdict": {
+      "description": "A requirement is met, partly met, or not met. Never a free-form score.",
+      "enum": [
+        "strong",
+        "partial",
+        "gap"
+      ],
+      "title": "Verdict",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "S2 output for one requirement. No quote means no credit.",
+  "properties": {
+    "evidence_quote": {
+      "anyOf": [
+        {
+          "maxLength": 600,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Evidence Quote"
+    },
+    "missing": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 6,
+      "title": "Missing",
+      "type": "array"
+    },
+    "rationale": {
+      "default": "",
+      "maxLength": 500,
+      "title": "Rationale",
+      "type": "string"
+    },
+    "verdict": {
+      "$ref": "#/$defs/Verdict",
+      "default": "gap"
+    }
+  },
+  "title": "MatchVerdict",
+  "type": "object"
+}

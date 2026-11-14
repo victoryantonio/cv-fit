@@ -1,0 +1,1171 @@
+ARC-Seal: i=1; a=rsa-sha256; t=1794304285; cv=none;
+        d=google.com; s=arc-20260327;
+        b=P3K0vjUDDcDRW41yVVTYa5nWK0FN2nJ4nHsvjuXjU20uBSCFe6UPQMoAw28cNMjmr+
+         Cy3SGdXecqlyk7UeZBqLTLGA9+CMxCr1pCplvsqKDb73369zdVBnltHDtsJB7Ax4kLmG
+         q6CN0b1hjeu9Ld04g7djEmaqT7FACjINlBeYqsaFh9DIrcpb8TDA0xA96+LEO6TRRMs2
+         QYE4ip5ybZiq1iwmQPgE3hzIxSNRhqKDcDL7Vyhqzh8bqizO7OMz1IVYtEHNc105GswM
+         mXliCkO2gFVx8XkHLQxylOgByMyKA1t2nVmtlcgsv3wnYaUcW+K2wO1A0t/GpP/ON+I+
+         Kw0g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20260327;       
+ h=require-recipient-valid-since:feedback-id:list-unsubscribe-post        
+ :list-unsubscribe:to:mime-version:subject:message-id:from:date        
+ :dkim-signature:dkim-signature;       
+ bh=CeiAZscOa8sw+JrglIBEI6ibjSTnzZFjFf289BP3E1Y=;       
+ fh=RpiJYxCYw/45rjhUsnT8twN77dQSl5C6l4h0lgkqE6U=;       
+ b=K7t9kjQFdBDZte4wD7AFTKyiqUX44bh5LYg6/TQXQCxnNjT7dDDjR35cKPbgy4NMK/        
+ SKZnzXT3PlU4ZLBwWNkmHruMZxwHV5fQ0e1gVxILRf6tsUoKl3ESRWSEAzOWdfeQnPnq        
+ PRiJY0TVA1ektzLOx/XpnCtfiMTxJUWGiCtoA/BEAAJlPhP05zLBzhcY9utZVT+lvZwc        
+ DM5L0pVE4gdN1w+QQxEjdkjSvGUaGA/92gAEMVv2//nmctU/lL0ZmXIfUwM2WwyK2Th6        
+ bxWhx2mRP6K3Aef/ehtPlhqWdd4KhYDgigrxAjKsX4ASRQeaClipiWJypTcrllR9kfIr        
+ VERw==;        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;       dkim=pass
+ header.i=@maild.linkedin.com header.s=d2048-202308-0d header.b=UOdTf0Yd;
+       dkim=pass header.i=@linkedin.com header.s=d2048-202308-00
+ header.b=qO0X+Ut2;       spf=pass (google.com: domain of =?utf-8?q?s-2rhcvv?=
+ =?utf-8?q?og0uf9t7hx19r09iif2jx1dk2nfrjr6ip38sfawhq8tjxlkin7=40bounce=2Elin?=
+ =?utf-8?q?kedin=2Ecom_designates_108=2E174=2E6=2E185_as_permitted_sender=29?=
+ =?utf-8?q?_smtp=2Emailfrom=3Ds-2rhcvvog0uf9t7hx19r09iif2jx1dk2nfrjr6ip38sfa?=
+ =?utf-8?q?whq8tjxlkin7=40bounce=2Elinkedin=2Ecom=3B?=       dmarc=pass
+ (p=REJECT sp=REJECT dis=NONE) header.from=linkedin.com
+Received-SPF: pass (google.com: domain of =?utf-8?q?s-2rhcvvog0uf9t7hx19r09i?=
+ =?utf-8?q?if2jx1dk2nfrjr6ip38sfawhq8tjxlkin7=40bounce=2Elinkedin=2Ecom?=
+ designates 108.174.6.185 as permitted sender) client-ip=108.174.6.185;
+Date: Tue, 10 Nov 2026 09:51:25 +0000 (GMT)
+From: LinkedIn Job Alerts <jobalerts-noreply@linkedin.com>
+Message-ID: <1597653846.3401763.1794304285336@lva2-app65021.prod.linkedin.com>
+Subject: Build+ is hiring: English speaking AI/Machine Learning Engineer
+ (Full Remote UP to 12M)
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3401761_1188968810.1794304285333"
+X-LinkedIn-Class: SAVEDSEARCH
+X-LinkedIn-Template: email_job_alert_digest_01
+X-LinkedIn-fbl: =?utf-8?q?m2-clvfvkcq5qylsnsy72n36g3t3yqo0zjh98r0uealzmsv82m?=
+ =?utf-8?q?wz85mueyrm9f1v7i03bk8seb0v7ijhsl5cukeuc3v8y2pe9nukhzqjlrt3639fdxh?=
+ =?utf-8?q?8algej15p00texn6d5jooeux?=
+X-LinkedIn-Id: d46cnt-mwaifyid-9c
+List-Unsubscribe: =?utf-8?q?=3Chttps=3A//www=2Elinkedin=2Ecom/job-alert-emai?=
+ =?utf-8?q?l-unsubscribe=3FsavedSearchId=3D5563015601=26lipi=3Durn=253Ali=25?=
+ =?utf-8?q?3Apage=253Aemail=5Femail=5Fjob=5Falert=5Fdigest=5F01=253BbrbSGM3W?=
+ =?utf-8?q?TcGDoJS=252BAe5yWA=253D=253D=26midToken=3DAQGMTkRPhSbz1A=26midSig?=
+ =?utf-8?q?=3D1HmCGeCVKLkcw1=26ek=3Demail=5Fjob=5Falert=5Fdigest=5F01=26e=3D?=
+ =?utf-8?q?d46cnt-mwaifyid-9c=26eid=3Dd46cnt-mwaifyid-9c=26m=3Dunsub=26ts=3D?=
+ =?utf-8?q?unsub=26li=3D0=26t=3Dplh=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Feedback-ID: email_job_alert_digest_01:linkedin
+Require-Recipient-Valid-Since:
+ applicant@example.com; Mon, 9 Jan 2023 03:27:28 +0000
+To: Example Applicant <applicant@example.com>
+
+------=_Part_3401761_1188968810.1794304285333
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Your job alert for ai engineer in APAC         =20
+30+ new jobs match your preferences.
+           =20
+English speaking AI/Machine Learning Engineer (Full Remote UP to 12M)=20
+Build+
+Tokyo, Japan
+
+This company is actively hiring
+Apply with resume & profile
+View job: https://www.linkedin.com/comm/jobs/view/4487993085/
+
+---------------------------------------------------------
+ =20
+           =20
+Artificial Intelligence Engineer
+Talent Forge Group
+Sydney, NSW
+
+This company is actively hiring
+Apply with resume & profile
+View job: https://www.linkedin.com/comm/jobs/view/4487986542/
+
+---------------------------------------------------------
+ =20
+           =20
+Senior AI Solutions Engineer =E2=80=94 Remote & Equity
+Sleek
+Mandaluyong
+
+This company is actively hiring
+View job: https://www.linkedin.com/comm/jobs/view/4487182846/
+
+---------------------------------------------------------
+ =20
+           =20
+Full Stack AI Engineer WFH
+Qubrid AI
+Kolkata
+
+This company is actively hiring
+Apply with resume & profile
+View job: https://www.linkedin.com/comm/jobs/view/4488878773/
+
+---------------------------------------------------------
+ =20
+           =20
+Senior Software Engineer (Backend) - AI/ML
+ClickHouse
+Sydney, NSW
+
+This company is actively hiring
+View job: https://www.linkedin.com/comm/jobs/view/4488300706/
+
+---------------------------------------------------------
+ =20
+           =20
+Senior AI Engineer
+Allura Partners
+Sydney, NSW
+View job: https://www.linkedin.com/comm/jobs/view/4489154754/
+
+---------------------------------------------------------
+ =20
+See all jobs on LinkedIn:  https://www.linkedin.com/comm/jobs/search-results/=
+?keywords=3Dai+engineer&f_TPR=3Da1794206774-&f_SAL=3Df_SA_id_225001%3A272001%=
+24f_SA_id_226001%3A272015&geoId=3D91000003&origin=3DSEMANTIC_SEARCH_JOB_ALERT=
+_EMAIL&lipi=3Dredacted&midToken=3Dredacted&midSig=3Dredacted&trk=3Dredacted&t=
+rkEmail=3Dredacted&eid=3Dredacted&otpToken=3Dredacted
+
+Stand out and let hirers know when a role they=E2=80=99ve posted is your top =
+choice.
+https://www.linkedin.com/comm/premium/products/?upsellOrderOrigin=3Demail_job=
+_alert_digest_taj_upsell&utype=3Djob&lipi=3Dredacted&midToken=3Dredacted&midS=
+ig=3Dredacted&trk=3Dredacted&trkEmail=3Dredacted&eid=3Dredacted&otpToken=3Dre=
+dacted
+ =20
+
+----------------------------------------
+
+This email was intended for Example Applicant (ML Engineer | Production AI Sy=
+stems, Solution Design & Stakeholder Delivery | Python =C2=B7 MLOps =C2=B7 Do=
+cker)
+Learn why we included this: https://www.linkedin.com/help/linkedin/answer/478=
+8?lang=3Den&lipi=3Dredacted&midToken=3Dredacted&midSig=3Dredacted&trk=3Dredac=
+ted&trkEmail=3Dredacted&eid=3Dredacted&otpToken=3Dredacted
+You are receiving Job Alert emails.
+
+Manage your job alerts:  https://www.linkedin.com/comm/jobs/alerts?lipi=3Dred=
+acted&midToken=3Dredacted&midSig=3Dredacted&trk=3Dredacted&trkEmail=3Dredacte=
+d&eid=3Dredacted&otpToken=3Dredacted=20
+Unsubscribe: https://www.linkedin.com/job-alert-email-unsubscribe?savedSearch=
+Id=3D5563015601&lipi=3Dredacted&midToken=3Dredacted&midSig=3Dredacted&ek=3Dem=
+ail_job_alert_digest_01&e=3Dd46cnt-mwaifyid-9c&eid=3Dredacted&m=3Dunsubscribe=
+&ts=3DfooterGlimmer&li=3D0&t=3Dplh  =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0Help: https=
+://www.linkedin.com/help/linkedin/answer/67?lang=3Den&lipi=3Dredacted&midToke=
+n=3Dredacted&midSig=3Dredacted&trk=3Dredacted&trkEmail=3Dredacted&eid=3Dredac=
+ted&otpToken=3Dredacted
+
+=C2=A9 2026 LinkedIn Corporation, 1zwnj000 West Maude Avenue, Sunnyvale, CA 9=
+4085.
+LinkedIn and the LinkedIn logo are registered trademarks of LinkedIn.
+
+------=_Part_3401761_1188968810.1794304285333
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" lang=3D"en" xml:lang=3D"en"> <he=
+ad> <meta http-equiv=3D"Content-Type" content=3D"text/html;charset=3Dutf-8"> =
+<meta name=3D"HandheldFriendly" content=3D"true"> <meta name=3D"viewport" con=
+tent=3D"width=3Ddevice-width; initial-scale=3D0.666667; user-scalable=3D0"> <=
+meta name=3D"viewport" content=3D"width=3Ddevice-width"> <title></title> <sty=
+le>
+              @media (max-width: 512px) { .mercado-container { width: 100% !i=
+mportant; } }
+            </style> <style>
+            @media (max-width: 480px) { .inline-button, .inline-button table =
+{ display: none !important; }
+            .full-width-button, .full-width-button table { display: table !im=
+portant; } }
+          </style> <style>body {font-family: -apple-system, system-ui, BlinkM=
+acSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+            'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid San=
+s', 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, =
+Arial, sans-serif;}</style> <!--[if mso]><style type=3D"text/css"> </style><!=
+[endif]--> <!--[if IE]><style type=3D"text/css"> </style><![endif]--> </head>=
+ <body dir=3D"ltr" class=3D"font-sans bg-color-background-canvas w-full m-0 p=
+-0 pt-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ margin: 0px; width: 100%; background-color: #f3f2f0; padding: 0px; padding-t=
+op: 8px; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI=
+', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cant=
+arell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;"> <div cla=
+ss=3D"h-0 opacity-0 text-transparent invisible overflow-hidden w-0 max-h-[0]"=
+ style=3D"visibility: hidden; height: 0px; max-height: 0; width: 0px; overflo=
+w: hidden; opacity: 0; mso-hide: all;" data-email-preheader=3D"true">View job=
+s in APAC</div> <div class=3D"h-0 opacity-0 text-transparent invisible overfl=
+ow-hidden w-0 max-h-[0]" style=3D"visibility: hidden; height: 0px; max-height=
+: 0; width: 0px; overflow: hidden; opacity: 0; mso-hide: all;"> =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=
+=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=
+=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 =CD=8F=C2=A0=
+=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0=CD=
+=8F=C2=A0=CD=8F=C2=A0=CD=8F=C2=A0 </div> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"512" align=
+=3D"center" class=3D"mercado-container w-[512px] max-w-[512px] mx-auto my-0 p=
+-0 " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; margin-left: auto; margin-right: a=
+uto; margin-top: 0px; margin-bottom: 0px; width: 512px; max-width: 512px; pad=
+ding: 0px;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" class=3D"bg-color-background-container " style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; background-color: #ffffff;"> <tbody> <tr> <td class=
+=3D"text-center p-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding: 24px; tex=
+t-align: center;"> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"min-w-full" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; min-width: 100%;"> <tbody> <tr> <td align=3D=
+"left" valign=3D"middle" style=3D"-webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"h=
+ttps://www.linkedin.com/comm/feed/?lipi=3Dredacted&amp;midToken=3Dredacted&am=
+p;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dreda=
+cted&amp;otpToken=3Dredacted" target=3D"_blank" class=3D"w-[84px]" style=3D"c=
+olor: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none;=
+ -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; width: 84px;"> <=
+img class=3D"h-[37px] w-[101px]" alt=3D"LinkedIn" src=3D"https://static.licdn=
+.com/aero-v1/sc/h/2fp5x7ci191mxbdy1eynscn59" data-test-header-static-badging-=
+img style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bi=
+cubic; height: 37px; width: 101px;" width=3D"101" height=3D"37"> </a> </td> <=
+td valign=3D"middle" align=3D"right" style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> =
+<table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" width=3D"auto" data-test-header-notification-badges style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td align=3D"right" valign=3D"mid=
+dle" class=3D"px-0.5" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-left: 4px=
+; padding-right: 4px;"> <a href=3D"https://www.linkedin.com/comm/messaging/?l=
+ipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredact=
+ed&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=
+=3D"_blank" class=3D"h-[25px]" style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; height: 25px;"> <img alt=3D"Messaging, 1 unread mess=
+age" src=3D"https://static.licdn.com/aero-v1/sc/h/rh7ssquk5xdn9epcp7y7b5s6" c=
+lass=3D"h-[25px]" style=3D"outline: none; text-decoration: none; -ms-interpol=
+ation-mode: bicubic; height: 25px;" height=3D"25"> </a> </td> <td align=3D"ri=
+ght" valign=3D"middle" class=3D"px-0.5" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding-left: 4px; padding-right: 4px;"> <a href=3D"https://www.linkedin.com=
+/comm/mynetwork/?lipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dredacte=
+d&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpToken=
+=3Dredacted" target=3D"_blank" class=3D"h-[25px]" style=3D"color: #0a66c2; cu=
+rsor: pointer; display: inline-block; text-decoration: none; -webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; height: 25px;"> <img alt=3D"My Ne=
+twork" src=3D"https://static.licdn.com/aero-v1/sc/h/anu0f2h3c0xay9ou5nkdrjk8q=
+" class=3D"h-[25px]" style=3D"outline: none; text-decoration: none; -ms-inter=
+polation-mode: bicubic; height: 25px;" height=3D"25"> </a> </td> <td align=3D=
+"right" valign=3D"middle" class=3D"px-0.5" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding-left: 4px; padding-right: 4px;"> <a href=3D"https://www.linkedin.=
+com/comm/notifications/?lipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3D=
+redacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;ot=
+pToken=3Dredacted" target=3D"_blank" class=3D"h-[25px]" style=3D"color: #0a66=
+c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 25px;"> <img alt=3D=
+"Notifications, 9+ new notifications" src=3D"https://static.licdn.com/aero-v1=
+/sc/h/eh1e9j5bszh6p379hn269p3ps" class=3D"h-[25px]" style=3D"outline: none; t=
+ext-decoration: none; -ms-interpolation-mode: bicubic; height: 25px;" height=
+=3D"25"> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </t=
+d> </tr> <tr> <td class=3D"px-3 pb-3" style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; p=
+adding-left: 24px; padding-right: 24px; padding-bottom: 24px;"> <div> <table =
+role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" class=3D"leading-regular" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; line-height: 1.25;"> <tbody> <tr> <td class=3D"job-alert-header" s=
+tyle=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table=
+-lspace: 0pt; mso-table-rspace: 0pt;"> <h1 class=3D"text-display-sm font-norm=
+al leading-regular" data-test-id=3D"email-header" style=3D"margin: 0; font-si=
+ze: 24px; font-weight: 400; line-height: 1.25;"> <a href=3D"https://www.linke=
+din.com/comm/jobs/search-results/?keywords=3Dai+engineer&amp;f_TPR=3Da1794206=
+774-&amp;f_SAL=3Df_SA_id_225001%3A272001%24f_SA_id_226001%3A272015&amp;geoId=
+=3D91000003&amp;origin=3DSEMANTIC_SEARCH_JOB_ALERT_EMAIL&amp;lipi=3Dredacted&=
+amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=
+=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D"_blank" cla=
+ss=3D"text-system-gray-90" style=3D"cursor: pointer; display: inline-block; t=
+ext-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; color: #282828;"> Your job alert for <strong class=3D"font-bold" style=
+=3D"font-weight: 600;">ai engineer</strong> </a> </h1> </td> </tr> <tr> <td c=
+lass=3D"pt-1 job-alert-subheader" style=3D"-webkit-text-size-adjust: 100%; -m=
+s-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddi=
+ng-top: 8px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <h2 class=
+=3D"text-md font-normal" data-test-id=3D"email-subheader" style=3D"margin: 0;=
+ font-size: 16px; font-weight: 400;"> 30+ new jobs in APAC match your prefere=
+nces. </h2> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pt-3"=
+ data-test-id=3D"job-card" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top:=
+ 24px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pr-1 w-6" valign=3D"to=
+p" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" wi=
+dth=3D"48"> <a href=3D"https://www.linkedin.com/comm/jobs/view/4487993085/" t=
+arget=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-bl=
+ock; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adj=
+ust: 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost-backgr=
+ound w-6 h-6 rounded-[2px]" src=3D"https://media.licdn.com/dms/image/v2/D4E0B=
+AQFesU1LTPmPSA/company-logo_100_100/company-logo_100_100/0/1738407088406/wahl=
+_case_logo?e=3D1795651200&amp;v=3Dbeta&amp;t=3DaHDYJq06NuxkLHhpa-9BWU1ir49LPW=
+JPnrMA8Y1fJYQ" alt=3D"Build+" style=3D"outline: none; text-decoration: none; =
+-ms-interpolation-mode: bicubic; position: relative; display: inline-block; h=
+eight: 48px; width: 48px; border-radius: 2px; background-color: #eae6df;" wid=
+th=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/jobs/view/44879930=
+85/" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inl=
+ine-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt;"> <tbody> <tr> <td class=3D"pb-0" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; padding-bottom: 0px;"> <a href=3D"https://www.linkedin.com/comm/jobs/vi=
+ew/4487993085/" target=3D"_blank" class=3D"font-bold text-md leading-regular =
+text-system-blue-50" style=3D"color: #0a66c2; cursor: pointer; display: inlin=
+e-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; font-size: 16px; font-weight: 600; line-height: 1.25;"> Englis=
+h speaking AI/Machine Learning Engineer (Full Remote UP to 12M) </a> </td> </=
+tr> <tr> <td class=3D"pb-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text=
+-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bot=
+tom: 0px;"> <p class=3D"text-system-gray-100 text-xs leading-regular mt-0.5 l=
+ine-clamp-1 text-ellipsis" style=3D"margin: 0; font-weight: 400; margin-top: =
+4px; text-overflow: ellipsis; font-size: 12px; line-height: 1.25; color: #1f1=
+f1f; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -w=
+ebkit-line-clamp: 1;"> Build+ &middot; Tokyo, Japan (Remote) </p> </td> </tr>=
+ <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation=
+" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; font-size: 0;" align=3D"left"> <!--[if (gte mso 9)|(IE)=
+]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentatio=
+n" style=3D"width: 100%;"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr> <td sty=
+le=3D"padding-top: 4px;"><![endif]--> <table class=3D"inline-block" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; display: inline-block;"> <tr> <td class=3D"job-c=
+ard-flavor__container_redesign_shaded_background" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; margin-top: 4px; margin-right: 4px; display: inline-block; border-=
+radius: 4px; background-color: #f5f7f9; padding: 4px;"> <table role=3D"presen=
+tation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"p=
+r-0.5 w-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 8px; padding-right: 4=
+px;" width=3D"8"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/3le24jev2=
+hig88cuokev26ksm" alt class=3D"w-2 h-2 block" style=3D"outline: none; text-de=
+coration: none; -ms-interpolation-mode: bicubic; display: block; height: 16px=
+; width: 16px;" width=3D"16" height=3D"16"> </td> <td style=3D"-webkit-text-s=
+ize-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tabl=
+e-rspace: 0pt;"> <p class=3D"job-card-flavor__detail" style=3D"margin: 0; fon=
+t-weight: 400; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Se=
+goe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans'=
+, Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI E=
+moji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font=
+-size: 12px; line-height: 1.25; color: #666666;"> Actively recruiting </p> </=
+td> </tr> </tbody> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></=
+td> </tr><![endif]--> <!--[if (gte mso 9)|(IE)]><tr> <td style=3D"padding-top=
+: 4px;"><![endif]--> <table class=3D"inline-block" style=3D"-webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; display: inline-block;"> <tr> <td class=3D"job-card-flavor__conta=
+iner_redesign_shaded_background" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin=
+-top: 4px; margin-right: 4px; display: inline-block; border-radius: 4px; back=
+ground-color: #f5f7f9; padding: 4px;"> <table role=3D"presentation" valign=3D=
+"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pr-0.5 w-1" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; width: 8px; padding-right: 4px;" width=3D"8=
+"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/1sk0fbe9amaiat5elvybbtxs=
+m" alt=3D"Easy Apply" class=3D"w-2 h-2 rounded-sm block" style=3D"outline: no=
+ne; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; h=
+eight: 16px; width: 16px; border-radius: 4px;" width=3D"16" height=3D"16"> </=
+td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; =
+mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <p class=3D"job-card-flavor__=
+detail" style=3D"margin: 0; font-weight: 400; font-family: -apple-system, sys=
+tem-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans'=
+, Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji'=
+, 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Hel=
+vetica, Arial, sans-serif; font-size: 12px; line-height: 1.25; color: #666666=
+;"> Easy Apply </p> </td> </tr> </tbody> </table> </td> </tr> </table> <!--[i=
+f (gte mso 9)|(IE)]></td> </tr><![endif]--> <!--[if (gte mso 9)|(IE)]><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentation" style=
+=3D"width: 100%;"><![endif]--> </td> </tr> </tbody> </table> </td> </tr> </tb=
+ody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table=
+> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D"pt-3" data-test=
+-id=3D"job-card" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 24px;"> <=
+table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody>=
+ <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation=
+" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"10=
+0%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-=
+size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-tab=
+le-rspace: 0pt;"> <tbody> <tr> <td class=3D"pr-1 w-6" valign=3D"top" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48">=
+ <a href=3D"https://www.linkedin.com/comm/jobs/view/4487986542/" target=3D"_b=
+lank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-d=
+ecoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"=
+> <img class=3D"inline-block relative bg-color-entity-ghost-background w-6 h-=
+6 rounded-[2px]" src=3D"https://media.licdn.com/dms/image/v2/D560BAQFBM9XelX9=
+HPg/company-logo_100_100/company-logo_100_100/0/1700519694885/talentforgegrou=
+pptyltd_logo?e=3D1795651200&amp;v=3Dbeta&amp;t=3DUgYw9t4HmMiq_qAS8Wuo9AVsjri9=
+l7SQDfF1IToiAcw" alt=3D"Talent Forge Group" style=3D"outline: none; text-deco=
+ration: none; -ms-interpolation-mode: bicubic; position: relative; display: i=
+nline-block; height: 48px; width: 48px; border-radius: 2px; background-color:=
+ #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/jobs=
+/view/4487986542/" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer=
+; display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100=
+%; -ms-text-size-adjust: 100%;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pb-0" style=3D"-webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso=
+-table-rspace: 0pt; padding-bottom: 0px;"> <a href=3D"https://www.linkedin.co=
+m/comm/jobs/view/4487986542/" target=3D"_blank" class=3D"font-bold text-md le=
+ading-regular text-system-blue-50" style=3D"color: #0a66c2; cursor: pointer; =
+display: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; font-size: 16px; font-weight: 600; line-height: =
+1.25;"> Artificial Intelligence Engineer </a> </td> </tr> <tr> <td class=3D"p=
+b-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso=
+-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 0px;"> <p class=3D=
+"text-system-gray-100 text-xs leading-regular mt-0.5 line-clamp-1 text-ellips=
+is" style=3D"margin: 0; font-weight: 400; margin-top: 4px; text-overflow: ell=
+ipsis; font-size: 12px; line-height: 1.25; color: #1f1f1f; overflow: hidden; =
+display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"> =
+Talent Forge Group &middot; Sydney, NSW (Remote) </p> </td> </tr> <tr> <td cl=
+ass=3D"pb-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 0px;"> <p =
+class=3D"text-system-gray-70 text-xs leading-regular mt-0.5" style=3D"margin:=
+ 0; font-weight: 400; margin-top: 4px; font-size: 12px; line-height: 1.25; co=
+lor: #666666;"> A$180K-A$220K / year </p> </td> </tr> <tr> <td style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-te=
+xt-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-=
+table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%=
+; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; f=
+ont-size: 0;" align=3D"left"> <!--[if (gte mso 9)|(IE)]><table cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" role=3D"presentation" style=3D"width: 100%=
+;"><![endif]--> <!--[if (gte mso 9)|(IE)]><tr> <td style=3D"padding-top: 4px;=
+"><![endif]--> <table class=3D"inline-block" style=3D"-webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace:=
+ 0pt; display: inline-block;"> <tr> <td class=3D"job-card-flavor__container_r=
+edesign_shaded_background" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: =
+4px; margin-right: 4px; display: inline-block; border-radius: 4px; background=
+-color: #f5f7f9; padding: 4px;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pr-0.5 w-1" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; width: 8px; padding-right: 4px;" width=3D"8"> <img =
+src=3D"https://static.licdn.com/aero-v1/sc/h/3le24jev2hig88cuokev26ksm" alt c=
+lass=3D"w-2 h-2 block" style=3D"outline: none; text-decoration: none; -ms-int=
+erpolation-mode: bicubic; display: block; height: 16px; width: 16px;" width=
+=3D"16" height=3D"16"> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <p c=
+lass=3D"job-card-flavor__detail" style=3D"margin: 0; font-weight: 400; font-f=
+amily: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hel=
+vetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid S=
+ans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symb=
+ol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 12px; line-hei=
+ght: 1.25; color: #666666;"> Actively recruiting </p> </td> </tr> </tbody> </=
+table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr><![endif]-->=
+ <!--[if (gte mso 9)|(IE)]><tr> <td style=3D"padding-top: 4px;"><![endif]--> =
+<table class=3D"inline-block" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: =
+inline-block;"> <tr> <td class=3D"job-card-flavor__container_redesign_shaded_=
+background" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 4px; margin-rig=
+ht: 4px; display: inline-block; border-radius: 4px; background-color: #f5f7f9=
+; padding: 4px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;"> <tbody> <tr> <td class=3D"pr-0.5 w-1" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; width: 8px; padding-right: 4px;" width=3D"8"> <img src=3D"https://=
+static.licdn.com/aero-v1/sc/h/1sk0fbe9amaiat5elvybbtxsm" alt=3D"Easy Apply" c=
+lass=3D"w-2 h-2 rounded-sm block" style=3D"outline: none; text-decoration: no=
+ne; -ms-interpolation-mode: bicubic; display: block; height: 16px; width: 16p=
+x; border-radius: 4px;" width=3D"16" height=3D"16"> </td> <td style=3D"-webki=
+t-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; =
+mso-table-rspace: 0pt;"> <p class=3D"job-card-flavor__detail" style=3D"margin=
+: 0; font-weight: 400; font-family: -apple-system, system-ui, BlinkMacSystemF=
+ont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxyg=
+en Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Se=
+goe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-ser=
+if; font-size: 12px; line-height: 1.25; color: #666666;"> Easy Apply </p> </t=
+d> </tr> </tbody> </table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></t=
+d> </tr><![endif]--> <!--[if (gte mso 9)|(IE)]><table cellpadding=3D"0" cells=
+pacing=3D"0" border=3D"0" role=3D"presentation" style=3D"width: 100%;"><![end=
+if]--> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </a> </td>=
+ </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody> <=
+/table> </td> </tr> <tr> <td class=3D"pt-3" data-test-id=3D"job-card" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; padding-top: 24px;"> <table role=3D"presenta=
+tion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-=
+webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: =
+0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" bor=
+der=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 1=
+00%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt=
+;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0=
+" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <t=
+body> <tr> <td class=3D"pr-1 w-6" valign=3D"top" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=3D"https://=
+www.linkedin.com/comm/jobs/view/4487182846/" target=3D"_blank" style=3D"color=
+: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none; -we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inli=
+ne-block relative bg-color-entity-ghost-background w-6 h-6 rounded-[2px]" src=
+=3D"https://media.licdn.com/dms/image/v2/C560BAQHWI-zSES4n-w/company-logo_100=
+_100/company-logo_100_100/0/1630897356530/sleekcorp_logo?e=3D1795651200&amp;v=
+=3Dbeta&amp;t=3DUWQUXAxlWYI9_Mu1bVRJg9ej5WPOTZxyhnix2T4xW-8" alt=3D"Sleek" st=
+yle=3D"outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;=
+ position: relative; display: inline-block; height: 48px; width: 48px; border=
+-radius: 2px; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </=
+td> <td valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"htt=
+ps://www.linkedin.com/comm/jobs/view/4487182846/" target=3D"_blank" style=3D"=
+color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: none=
+; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d class=3D"pb-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjus=
+t: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 0px;">=
+ <a href=3D"https://www.linkedin.com/comm/jobs/view/4487182846/" target=3D"_b=
+lank" class=3D"font-bold text-md leading-regular text-system-blue-50" style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: =
+none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: =
+16px; font-weight: 600; line-height: 1.25;"> Senior AI Solutions Engineer =E2=
+=80=94 Remote &amp; Equity </a> </td> </tr> <tr> <td class=3D"pb-0" style=3D"=
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace:=
+ 0pt; mso-table-rspace: 0pt; padding-bottom: 0px;"> <p class=3D"text-system-g=
+ray-100 text-xs leading-regular mt-0.5 line-clamp-1 text-ellipsis" style=3D"m=
+argin: 0; font-weight: 400; margin-top: 4px; text-overflow: ellipsis; font-si=
+ze: 12px; line-height: 1.25; color: #1f1f1f; overflow: hidden; display: -webk=
+it-box; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"> Sleek &middot;=
+ Mandaluyong (Remote) </p> </td> </tr> <tr> <td style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 0;" al=
+ign=3D"left"> <!--[if (gte mso 9)|(IE)]><table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" role=3D"presentation" style=3D"width: 100%;"><![endif]-->=
+ <!--[if (gte mso 9)|(IE)]><tr> <td style=3D"padding-top: 4px;"><![endif]--> =
+<table class=3D"inline-block" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: =
+inline-block;"> <tr> <td class=3D"job-card-flavor__container_redesign_shaded_=
+background" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 4px; margin-rig=
+ht: 4px; display: inline-block; border-radius: 4px; background-color: #f5f7f9=
+; padding: 4px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt;"> <tbody> <tr> <td class=3D"pr-0.5 w-1" style=3D"-webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rs=
+pace: 0pt; width: 8px; padding-right: 4px;" width=3D"8"> <img src=3D"https://=
+static.licdn.com/aero-v1/sc/h/3le24jev2hig88cuokev26ksm" alt class=3D"w-2 h-2=
+ block" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode=
+: bicubic; display: block; height: 16px; width: 16px;" width=3D"16" height=3D=
+"16"> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <p class=3D"job-card-=
+flavor__detail" style=3D"margin: 0; font-weight: 400; font-family: -apple-sys=
+tem, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fi=
+ra Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Colo=
+r Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Gran=
+de', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.25; color:=
+ #666666;"> Actively recruiting </p> </td> </tr> </tbody> </table> </td> </tr=
+> </table> <!--[if (gte mso 9)|(IE)]></td> </tr><![endif]--> <!--[if (gte mso=
+ 9)|(IE)]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"pre=
+sentation" style=3D"width: 100%;"><![endif]--> </td> </tr> </tbody> </table> =
+</td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr> =
+</tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <td class=3D=
+"pt-3" data-test-id=3D"job-card" style=3D"-webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; paddin=
+g-top: 24px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pr-1 w-6" valig=
+n=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48px; padding-right: 8=
+px;" width=3D"48"> <a href=3D"https://www.linkedin.com/comm/jobs/view/4488878=
+773/" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: in=
+line-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-s=
+ize-adjust: 100%;"> <img class=3D"inline-block relative bg-color-entity-ghost=
+-background w-6 h-6 rounded-[2px]" src=3D"https://media.licdn.com/dms/image/v=
+2/D560BAQEL6Ve2CjrNJA/company-logo_100_100/B56Z4tRjSPHEAI-/0/1778876036481/qu=
+brid_logo?e=3D1795651200&amp;v=3Dbeta&amp;t=3DDxUV5pnXRga7BWNLZS4kGxfzDTIzaea=
+iyv-MxAsVjHY" alt=3D"Qubrid AI" style=3D"outline: none; text-decoration: none=
+; -ms-interpolation-mode: bicubic; position: relative; display: inline-block;=
+ height: 48px; width: 48px; border-radius: 2px; background-color: #eae6df;" w=
+idth=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-t=
+able-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/jobs/view/448887=
+8773/" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: i=
+nline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt;"> <tbody> <tr> <td class=3D"pb-0" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; padding-bottom: 0px;"> <a href=3D"https://www.linkedin.com/comm/jobs/=
+view/4488878773/" target=3D"_blank" class=3D"font-bold text-md leading-regula=
+r text-system-blue-50" style=3D"color: #0a66c2; cursor: pointer; display: inl=
+ine-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-si=
+ze-adjust: 100%; font-size: 16px; font-weight: 600; line-height: 1.25;"> Full=
+ Stack AI Engineer WFH </a> </td> </tr> <tr> <td class=3D"pb-0" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; padding-bottom: 0px;"> <p class=3D"text-system-gray-=
+100 text-xs leading-regular mt-0.5 line-clamp-1 text-ellipsis" style=3D"margi=
+n: 0; font-weight: 400; margin-top: 4px; text-overflow: ellipsis; font-size: =
+12px; line-height: 1.25; color: #1f1f1f; overflow: hidden; display: -webkit-b=
+ox; -webkit-box-orient: vertical; -webkit-line-clamp: 1;"> Qubrid AI &middot;=
+ Kolkata (Remote) </p> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 0;" alig=
+n=3D"left"> <!--[if (gte mso 9)|(IE)]><table cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" role=3D"presentation" style=3D"width: 100%;"><![endif]--> <!=
+--[if (gte mso 9)|(IE)]><tr> <td style=3D"padding-top: 4px;"><![endif]--> <ta=
+ble class=3D"inline-block" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inl=
+ine-block;"> <tr> <td class=3D"job-card-flavor__container_redesign_shaded_bac=
+kground" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin-top: 4px; margin-right:=
+ 4px; display: inline-block; border-radius: 4px; background-color: #f5f7f9; p=
+adding: 4px;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace=
+: 0pt;"> <tbody> <tr> <td class=3D"pr-0.5 w-1" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; width: 8px; padding-right: 4px;" width=3D"8"> <img src=3D"https://sta=
+tic.licdn.com/aero-v1/sc/h/3le24jev2hig88cuokev26ksm" alt class=3D"w-2 h-2 bl=
+ock" style=3D"outline: none; text-decoration: none; -ms-interpolation-mode: b=
+icubic; display: block; height: 16px; width: 16px;" width=3D"16" height=3D"16=
+"> </td> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 1=
+00%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <p class=3D"job-card-fla=
+vor__detail" style=3D"margin: 0; font-weight: 400; font-family: -apple-system=
+, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira =
+Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color E=
+moji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande'=
+, Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.25; color: #6=
+66666;"> Actively recruiting </p> </td> </tr> </tbody> </table> </td> </tr> <=
+/table> <!--[if (gte mso 9)|(IE)]></td> </tr><![endif]--> <!--[if (gte mso 9)=
+|(IE)]><tr> <td style=3D"padding-top: 4px;"><![endif]--> <table class=3D"inli=
+ne-block" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%=
+; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;"> <tr>=
+ <td class=3D"job-card-flavor__container_redesign_shaded_background" style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt; margin-top: 4px; margin-right: 4px; display: in=
+line-block; border-radius: 4px; background-color: #f5f7f9; padding: 4px;"> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> =
+<tr> <td class=3D"pr-0.5 w-1" style=3D"-webkit-text-size-adjust: 100%; -ms-te=
+xt-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 8p=
+x; padding-right: 4px;" width=3D"8"> <img src=3D"https://static.licdn.com/aer=
+o-v1/sc/h/1sk0fbe9amaiat5elvybbtxsm" alt=3D"Easy Apply" class=3D"w-2 h-2 roun=
+ded-sm block" style=3D"outline: none; text-decoration: none; -ms-interpolatio=
+n-mode: bicubic; display: block; height: 16px; width: 16px; border-radius: 4p=
+x;" width=3D"16" height=3D"16"> </td> <td style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;"> <p class=3D"job-card-flavor__detail" style=3D"margin: 0; font-weight: 40=
+0; font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Rob=
+oto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell,=
+ 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Sego=
+e UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 12px;=
+ line-height: 1.25; color: #666666;"> Easy Apply </p> </td> </tr> </tbody> </=
+table> </td> </tr> </table> <!--[if (gte mso 9)|(IE)]></td> </tr><![endif]-->=
+ <!--[if (gte mso 9)|(IE)]><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" role=3D"presentation" style=3D"width: 100%;"><![endif]--> </td> </tr> =
+</tbody> </table> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </t=
+able> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr>=
+ <tr> <td class=3D"pt-3" data-test-id=3D"job-card" style=3D"-webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding-top: 24px;"> <table role=3D"presentation" valign=3D"top" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust=
+: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: =
+0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+"> <tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=
+=3D"pr-1 w-6" valign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 48p=
+x; padding-right: 8px;" width=3D"48"> <a href=3D"https://www.linkedin.com/com=
+m/jobs/view/4488300706/" target=3D"_blank" style=3D"color: #0a66c2; cursor: p=
+ointer; display: inline-block; text-decoration: none; -webkit-text-size-adjus=
+t: 100%; -ms-text-size-adjust: 100%;"> <img class=3D"inline-block relative bg=
+-color-entity-ghost-background w-6 h-6 rounded-[2px]" src=3D"https://media.li=
+cdn.com/dms/image/v2/D4E0BAQEr8RfI76yHEQ/company-logo_100_100/company-logo_10=
+0_100/0/1688976507947/clickhouseinc_logo?e=3D1795651200&amp;v=3Dbeta&amp;t=3D=
+Bq_wzbIzub7_A4yWeW5uCqxfpjouD9wF683GZXYc-MM" alt=3D"ClickHouse" style=3D"outl=
+ine: none; text-decoration: none; -ms-interpolation-mode: bicubic; position: =
+relative; display: inline-block; height: 48px; width: 48px; border-radius: 2p=
+x; background-color: #eae6df;" width=3D"48" height=3D"48"> </a> </td> <td val=
+ign=3D"top" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 10=
+0%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https://www.li=
+nkedin.com/comm/jobs/view/4488300706/" target=3D"_blank" style=3D"color: #0a6=
+6c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-t=
+ext-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <table role=3D"presentat=
+ion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D=
+"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td class=3D"pb-0=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; padding-bottom: 0px;"> <a href=3D"htt=
+ps://www.linkedin.com/comm/jobs/view/4488300706/" target=3D"_blank" class=3D"=
+font-bold text-md leading-regular text-system-blue-50" style=3D"color: #0a66c=
+2; cursor: pointer; display: inline-block; text-decoration: none; -webkit-tex=
+t-size-adjust: 100%; -ms-text-size-adjust: 100%; font-size: 16px; font-weight=
+: 600; line-height: 1.25;"> Senior Software Engineer (Backend) - AI/ML </a> <=
+/td> </tr> <tr> <td class=3D"pb-0" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padd=
+ing-bottom: 0px;"> <p class=3D"text-system-gray-100 text-xs leading-regular m=
+t-0.5 line-clamp-1 text-ellipsis" style=3D"margin: 0; font-weight: 400; margi=
+n-top: 4px; text-overflow: ellipsis; font-size: 12px; line-height: 1.25; colo=
+r: #1f1f1f; overflow: hidden; display: -webkit-box; -webkit-box-orient: verti=
+cal; -webkit-line-clamp: 1;"> ClickHouse &middot; Sydney, NSW (Remote) </p> <=
+/td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"pr=
+esentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" w=
+idth=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; font-size: 0;" align=3D"left"> <!--[if (gte =
+mso 9)|(IE)]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"=
+presentation" style=3D"width: 100%;"><![endif]--> <!--[if (gte mso 9)|(IE)]><=
+tr> <td style=3D"padding-top: 4px;"><![endif]--> <table class=3D"inline-block=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block;"> <tr> <td cla=
+ss=3D"job-card-flavor__container_redesign_shaded_background" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; margin-top: 4px; margin-right: 4px; display: inline-blo=
+ck; border-radius: 4px; background-color: #f5f7f9; padding: 4px;"> <table rol=
+e=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d class=3D"pr-0.5 w-1" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 8px; padd=
+ing-right: 4px;" width=3D"8"> <img src=3D"https://static.licdn.com/aero-v1/sc=
+/h/3le24jev2hig88cuokev26ksm" alt class=3D"w-2 h-2 block" style=3D"outline: n=
+one; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; =
+height: 16px; width: 16px;" width=3D"16" height=3D"16"> </td> <td style=3D"-w=
+ebkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0=
+pt; mso-table-rspace: 0pt;"> <p class=3D"job-card-flavor__detail" style=3D"ma=
+rgin: 0; font-weight: 400; font-family: -apple-system, system-ui, BlinkMacSys=
+temFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, '=
+Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji',=
+ 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans=
+-serif; font-size: 12px; line-height: 1.25; color: #666666;"> Actively recrui=
+ting </p> </td> </tr> </tbody> </table> </td> </tr> </table> <!--[if (gte mso=
+ 9)|(IE)]></td> </tr><![endif]--> <!--[if (gte mso 9)|(IE)]><table cellpaddin=
+g=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presentation" style=3D"width: =
+100%;"><![endif]--> </td> </tr> </tbody> </table> </td> </tr> </tbody> </tabl=
+e> </a> </td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </t=
+r> </tbody> </table> </td> </tr> <tr> <td class=3D"pt-3" data-test-id=3D"job-=
+card" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; ms=
+o-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 24px;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <t=
+d style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;"> <tbody> <tr> <td class=3D"pr-1 w-6" valign=3D"top" style=3D"-webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; m=
+so-table-rspace: 0pt; width: 48px; padding-right: 8px;" width=3D"48"> <a href=
+=3D"https://www.linkedin.com/comm/jobs/view/4489154754/" target=3D"_blank" st=
+yle=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoratio=
+n: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> <img c=
+lass=3D"inline-block relative bg-color-entity-ghost-background w-6 h-6 rounde=
+d-[2px]" src=3D"https://media.licdn.com/dms/image/v2/D560BAQGJrJavgj4mqg/comp=
+any-logo_100_100/company-logo_100_100/0/1695854359584/allurapartners_logo?e=
+=3D1795651200&amp;v=3Dbeta&amp;t=3DCJM_QA-jOWdIFkQG0495f7hB40hPKl_hBueemNHl1f=
+Q" alt=3D"Allura Partners" style=3D"outline: none; text-decoration: none; -ms=
+-interpolation-mode: bicubic; position: relative; display: inline-block; heig=
+ht: 48px; width: 48px; border-radius: 2px; background-color: #eae6df;" width=
+=3D"48" height=3D"48"> </a> </td> <td valign=3D"top" style=3D"-webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table=
+-rspace: 0pt;"> <a href=3D"https://www.linkedin.com/comm/jobs/view/4489154754=
+/" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inlin=
+e-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <tbody> <tr> <td class=3D"pb-0" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; padding-bottom: 0px;"> <a href=3D"https://www.linkedin.com/comm/jobs/view=
+/4489154754/" target=3D"_blank" class=3D"font-bold text-md leading-regular te=
+xt-system-blue-50" style=3D"color: #0a66c2; cursor: pointer; display: inline-=
+block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%; font-size: 16px; font-weight: 600; line-height: 1.25;"> Senior A=
+I Engineer </a> </td> </tr> <tr> <td class=3D"pb-0" style=3D"-webkit-text-siz=
+e-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-=
+rspace: 0pt; padding-bottom: 0px;"> <p class=3D"text-system-gray-100 text-xs =
+leading-regular mt-0.5 line-clamp-1 text-ellipsis" style=3D"margin: 0; font-w=
+eight: 400; margin-top: 4px; text-overflow: ellipsis; font-size: 12px; line-h=
+eight: 1.25; color: #1f1f1f; overflow: hidden; display: -webkit-box; -webkit-=
+box-orient: vertical; -webkit-line-clamp: 1;"> Allura Partners &middot; Sydne=
+y, NSW (Hybrid) </p> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0p=
+t;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <=
+tbody> <tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-size: 0;" align=3D=
+"left"> <!--[if (gte mso 9)|(IE)]><table cellpadding=3D"0" cellspacing=3D"0" =
+border=3D"0" role=3D"presentation" style=3D"width: 100%;"><![endif]--> <!--[i=
+f (gte mso 9)|(IE)]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" r=
+ole=3D"presentation" style=3D"width: 100%;"><![endif]--> </td> </tr> </tbody>=
+ </table> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </=
+td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> <tr> <t=
+d class=3D"pt-3 text-left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top:=
+ 24px; text-align: left;"> <table role=3D"presentation" valign=3D"top" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"email-butt=
+on " data-test-id=3D"email-button" style=3D"-webkit-text-size-adjust: 100%; -=
+ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <t=
+body> <tr> <td valign=3D"middle" align=3D"left" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt;"> <a href=3D"https://www.linkedin.com/comm/jobs/search-results/?keyw=
+ords=3Dai+engineer&amp;f_TPR=3Da1794206774-&amp;f_SAL=3Df_SA_id_225001%3A2720=
+01%24f_SA_id_226001%3A272015&amp;geoId=3D91000003&amp;origin=3DSEMANTIC_SEARC=
+H_JOB_ALERT_EMAIL&amp;lipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dre=
+dacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpT=
+oken=3Dredacted" target=3D"_blank" aria-label=3D"See all jobs" class=3D"align=
+-top no-underline " style=3D"color: #0a66c2; cursor: pointer; display: inline=
+-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; vertical-align: top; text-decoration-line: none;"> <table role=
+=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"auto" class=3D"border-separate " style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"btn-md btn-p=
+rimary border-color-brand button-link leading-regular !min-h-[auto] !shadow-n=
+one border-1 border-solid" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; height: min-=
+content; border-radius: 24px; padding-top: 12px; padding-bottom: 12px; paddin=
+g-left: 24px; padding-right: 24px; text-align: center; font-size: 16px; font-=
+weight: 600; cursor: pointer; text-decoration-line: none; background-color: #=
+0a66c2; color: #ffffff; border-width: 1px; border-style: solid; border-color:=
+ #0a66c2; line-height: 1.25; min-height: auto !important; box-shadow: 0 0 #00=
+00, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"https://www.linkedin.com/co=
+mm/jobs/search-results/?keywords=3Dai+engineer&amp;f_TPR=3Da1794206774-&amp;f=
+_SAL=3Df_SA_id_225001%3A272001%24f_SA_id_226001%3A272015&amp;geoId=3D91000003=
+&amp;origin=3DSEMANTIC_SEARCH_JOB_ALERT_EMAIL&amp;lipi=3Dredacted&amp;midToke=
+n=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted=
+&amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D"_blank" tabindex=3D"-1=
+" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor=
+: pointer; display: inline-block; text-decoration: none; -webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span c=
+lass=3D"no-underline text-white" style=3D"color: #ffffff; text-decoration-lin=
+e: none;"> See all jobs </span> </a> </td> </tr> </tbody> </table> </a> </td>=
+ </tr> </tbody> </table> </td> </tr> <tr data-test-id=3D"premium-upsell-divid=
+er"> <td class=3D"pt-3" style=3D"-webkit-text-size-adjust: 100%; -ms-text-siz=
+e-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 24=
+px;"> <hr class=3D"bg-[#D9D9D9] border-0 h-[1px] m-0" style=3D"margin: 0px; h=
+eight: 1px; border-width: 0; background-color: #D9D9D9;"> </td> </tr> <tr dat=
+a-test-id=3D"premium-upsell"> <td class=3D"pt-3" data-test-id=3D"freemium-taj=
+-static-upsell" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust=
+: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; padding-top: 24px;"> <t=
+able role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" width=3D"100%" style=3D"-webkit-text-size-adjust: 100%; -ms-tex=
+t-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> =
+<tr> <td style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;=
+ mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <table role=3D"presentation"=
+ valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100=
+%" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-t=
+able-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td align=3D"left" va=
+lign=3D"top" class=3D"w-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-=
+size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 0px;"=
+ width=3D"0"> <a href=3D"https://id.linkedin.com/comm/in/victoryantonio?lipi=
+=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&=
+amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D=
+"_blank" style=3D"color: #0a66c2; cursor: pointer; display: inline-block; tex=
+t-decoration: none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100=
+%;"> <img class=3D"w-[84px]" alt=3D"Premium icon" src=3D"https://static.licdn=
+.com/aero-v1/sc/h/6mjomvgg6rdiwm5rnormbdyja" style=3D"outline: none; text-dec=
+oration: none; -ms-interpolation-mode: bicubic; width: 84px;" width=3D"84"> <=
+/a> </td> </tr> <tr> <td class=3D"text-center" align=3D"center" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt; text-align: center;"> <img class=3D"inline-block rel=
+ative bg-color-entity-ghost-background clip-path-circle-50 rounded-full w-16 =
+h-16" src=3D"https://media.licdn.com/dms/image/v2/D5603AQFbgGo2WP2kWw/profile=
+-displayphoto-shrink_200_200/B56ZSjWwsGHQAY-/0/1737907442153?e=3D2147483647&a=
+mp;v=3Dbeta&amp;t=3DyR2QeKZUSclvuCEm4100STtXB2nXNBr8a5EPnVgpXbU" alt=3D"Examp=
+le Applicant" style=3D"outline: none; text-decoration: none; -ms-interpolatio=
+n-mode: bicubic; position: relative; display: inline-block; height: 128px; wi=
+dth: 128px; border-radius: 9999px; background-color: #eae6df; clip-path: circ=
+le(50%);" width=3D"128" height=3D"128"> </td> </tr> </tbody> </table> </td> <=
+/tr> <tr> <td class=3D"text-lg leading-regular text-center pt-2" style=3D"-we=
+bkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0p=
+t; mso-table-rspace: 0pt; padding-top: 16px; text-align: center; font-size: 2=
+0px; line-height: 1.25;"> Stand out and let hirers know when a role they=E2=
+=80=99ve posted is your top choice. </td> </tr> <tr> <td class=3D"pt-2" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; padding-top: 16px;"> <table role=3D"presenta=
+tion" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=
+=3D"100%" class=3D"email-button " data-test-id=3D"email-button" style=3D"-web=
+kit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt=
+; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"middle" align=3D"middle=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"http://www.linkedin.com/=
+comm/premium/products/?upsellOrderOrigin=3DTracking%3Av1%3Aemail_job_alerts_u=
+psell%3AEmail+Stork%3AMarketing&amp;referenceId=3DBm5xjIaiR0S3NBwFe%2B2z2g%3D=
+%3D&amp;isSS=3Dfalse&amp;upsellSlotId=3DEMAIL_JOB_ALERTS&amp;lipi=3Dredacted&=
+amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=
+=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D"_blank" ari=
+a-label=3D"Try Premium for Rp=C2=A00" class=3D"align-top no-underline " style=
+=3D"color: #0a66c2; cursor: pointer; display: inline-block; text-decoration: =
+none; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; vertical-al=
+ign: top; text-decoration-line: none;"> <table role=3D"presentation" valign=
+=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"auto" clas=
+s=3D"border-separate " style=3D"-webkit-text-size-adjust: 100%; -ms-text-size=
+-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse:=
+ separate;"> <tbody> <tr> <td class=3D"btn-sm btn-secondary !border-[#424242]=
+ button-link leading-regular !min-h-[auto] !shadow-none border-1 border-solid=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; height: min-content; border-radius: 2=
+4px; padding-top: 7px; padding-bottom: 7px; padding-left: 16px; padding-right=
+: 16px; text-align: center; font-size: 14px; font-weight: 600; cursor: pointe=
+r; text-decoration-line: none; background-color: rgba(0, 0, 0, 0); color: rgb=
+a(0, 0, 0, 0.75); border-width: 1px; border-style: solid; line-height: 1.25; =
+min-height: auto !important; border-color: #424242 !important; box-shadow: 0 =
+0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=3D"http://www.linkedin.co=
+m/comm/premium/products/?upsellOrderOrigin=3DTracking%3Av1%3Aemail_job_alerts=
+_upsell%3AEmail+Stork%3AMarketing&amp;referenceId=3DBm5xjIaiR0S3NBwFe%2B2z2g%=
+3D%3D&amp;isSS=3Dfalse&amp;upsellSlotId=3DEMAIL_JOB_ALERTS&amp;lipi=3Dredacte=
+d&amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEma=
+il=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D"_blank" t=
+abindex=3D"-1" aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0=
+a66c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: no=
+ne;"> <span class=3D"no-underline !text-[#424242]" style=3D"text-decoration-l=
+ine: none; color: #424242 !important;"> Try Premium for Rp=C2=A00 </span> </a=
+> </td> </tr> </tbody> </table> </a> </td> </tr> </tbody> </table> </td> </tr=
+> </tbody> </table> </td> </tr> </tbody> </table> </div> </td> </tr> <tr> <td=
+ class=3D"bg-color-background-canvas pt-[10px]" style=3D"-webkit-text-size-ad=
+just: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspa=
+ce: 0pt; background-color: #f3f2f0; padding-top: 10px;"> <a href=3D"https://w=
+ww.linkedin.com/comm/widgets/promo?lipi=3Dredacted&amp;midToken=3Dredacted&am=
+p;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dreda=
+cted&amp;otpToken=3Dredacted" target=3D"_blank" style=3D"color: #0a66c2; curs=
+or: pointer; display: inline-block; text-decoration: none; -webkit-text-size-=
+adjust: 100%; -ms-text-size-adjust: 100%;"> <table role=3D"presentation" vali=
+gn=3D"top" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" cl=
+ass=3D"bg-color-background-container" data-test-id=3D"widget-promo-footer-tab=
+le" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ffffff;"> <tbody=
+> <tr> <td class=3D"text-right pl-3 pt-3 pb-2" style=3D"-webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt; padding-top: 24px; padding-bottom: 16px; padding-left: 24px; text-ali=
+gn: right;"> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" width=3D"100%" class=3D"text-left h-full" style=
+=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lsp=
+ace: 0pt; mso-table-rspace: 0pt; height: 100%; text-align: left;" height=3D"1=
+00%"> <tbody> <tr> <td class=3D"pb-0.5" style=3D"-webkit-text-size-adjust: 10=
+0%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;=
+ padding-bottom: 4px;"> <h3 class=3D"text-color-text-secondary font-semibold =
+text-xs text-left email-md:text-sm" style=3D"margin: 0; text-align: left; fon=
+t-size: 12px; font-weight: 600; color: rgba(0, 0, 0, 0.6);">Install LinkedIn =
+Widgets</h3> </td> </tr> <tr> <td class=3D"pb-1.5" style=3D"-webkit-text-size=
+-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-r=
+space: 0pt; padding-bottom: 12px;"> <h2 class=3D"text-color-text font-semibol=
+d text-lg text-left email-md:text-xl" style=3D"margin: 0; text-align: left; f=
+ont-size: 20px; font-weight: 600; color: rgba(0, 0, 0, 0.9);">Stay updated at=
+ a glance</h2> </td> </tr> <tr> <td style=3D"-webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <=
+table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" width=3D"100%" class=3D"email-button " data-test-id=3D"email-b=
+utton" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; m=
+so-table-lspace: 0pt; mso-table-rspace: 0pt;"> <tbody> <tr> <td valign=3D"mid=
+dle" align=3D"left" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-ad=
+just: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"> <a href=3D"https:=
+//www.linkedin.com/comm/widgets/promo?lipi=3Dredacted&amp;midToken=3Dredacted=
+&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dr=
+edacted&amp;otpToken=3Dredacted" target=3D"_blank" aria-label=3D"Add widget" =
+class=3D"align-top no-underline " style=3D"color: #0a66c2; cursor: pointer; d=
+isplay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; =
+-ms-text-size-adjust: 100%; vertical-align: top; text-decoration-line: none;"=
+> <table role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" width=3D"auto" class=3D"border-separate " style=3D"-webkit-=
+text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; ms=
+o-table-rspace: 0pt; border-collapse: separate;"> <tbody> <tr> <td class=3D"b=
+tn-sm btn-secondary-emphasis border-color-brand button-link leading-regular !=
+min-h-[auto] !shadow-none border-1 border-solid" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; height: min-content; border-radius: 24px; padding-top: 7px; padding=
+-bottom: 7px; padding-left: 16px; padding-right: 16px; text-align: center; fo=
+nt-size: 14px; font-weight: 600; cursor: pointer; text-decoration-line: none;=
+ background-color: rgba(0, 0, 0, 0); color: #0a66c2; border-width: 1px; borde=
+r-style: solid; border-color: #0a66c2; line-height: 1.25; min-height: auto !i=
+mportant; box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000 !important;"> <a href=
+=3D"https://www.linkedin.com/comm/widgets/promo?lipi=3Dredacted&amp;midToken=
+=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&=
+amp;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D"_blank" tabindex=3D"-1"=
+ aria-hidden=3D"true" class=3D"no-underline" style=3D"color: #0a66c2; cursor:=
+ pointer; display: inline-block; text-decoration: none; -webkit-text-size-adj=
+ust: 100%; -ms-text-size-adjust: 100%; text-decoration-line: none;"> <span cl=
+ass=3D"no-underline text-color-brand" style=3D"color: #0a66c2; text-decoratio=
+n-line: none;"> Add widget </span> </a> </td> </tr> </tbody> </table> </a> </=
+td> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> <td class=3D"=
+w-1/2 max-w-1/2 ml-auto text-right " style=3D"-webkit-text-size-adjust: 100%;=
+ -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; ma=
+rgin-left: auto; width: 50%; text-align: right;" width=3D"50%"> <!--[if mso]>=
+<img alt=3D{{@imageAlt}} src=3D{{@imageSrc}} width=3D"260" height=3D"230" sty=
+le=3D"display: block;"/><![endif]--> <!--[if !mso]><!--> <img alt=3D"LinkedIn=
+ Feed Widget" src=3D"https://static.licdn.com/aero-v1/sc/h/biuh9wrdh2y3k0d1fj=
+fzcg2vb" class=3D"block w-full max-w-[260px]" style=3D"outline: none; text-de=
+coration: none; -ms-interpolation-mode: bicubic; display: block; width: 100%;=
+ max-width: 260px;"> <!--<![endif]--> </td> </tr> </tbody> </table> </a> <tab=
+le role=3D"presentation" valign=3D"top" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" width=3D"100%" class=3D"text-xs p-3" style=3D"-webkit-text-size-a=
+djust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rsp=
+ace: 0pt; padding: 24px; font-size: 12px;"> <tbody> <tr> <td class=3D"pb-1 m-=
+0" data-test-id=3D"email-footer__intended" style=3D"-webkit-text-size-adjust:=
+ 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0=
+pt; margin: 0px; padding-bottom: 8px;"> This email was intended for Example A=
+pplicant (ML Engineer | Production AI Systems, Solution Design &amp; Stakehol=
+der Delivery | Python =C2=B7 MLOps =C2=B7 Docker) </td> </tr> <tr> <td class=
+=3D"pb-1 m-0" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: =
+100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bott=
+om: 8px;"> <a href=3D"https://www.linkedin.com/help/linkedin/answer/4788?lang=
+=3Den&amp;lipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;t=
+rk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredac=
+ted" target=3D"_blank" class=3D"text-inherit underline" style=3D"cursor: poin=
+ter; display: inline-block; text-decoration: none; -webkit-text-size-adjust: =
+100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-line: under=
+line;">Learn why we included this.</a> </td> </tr> <tr> <td class=3D"pb-1 m-0=
+" style=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-ta=
+ble-lspace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;">Yo=
+u are receiving Job Alert emails.</td> </tr> <tr> <td class=3D"pb-1 m-0" styl=
+e=3D"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-ls=
+pace: 0pt; mso-table-rspace: 0pt; margin: 0px; padding-bottom: 8px;"> <a href=
+=3D"https://www.linkedin.com/comm/jobs/alerts?lipi=3Dredacted&amp;midToken=3D=
+redacted&amp;midSig=3Dredacted&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp=
+;eid=3Dredacted&amp;otpToken=3Dredacted" target=3D"_blank" style=3D"color: #0=
+a66c2; cursor: pointer; display: inline-block; text-decoration: none; -webkit=
+-text-size-adjust: 100%; -ms-text-size-adjust: 100%;"> Manage job alerts </a>=
+ =C2=A0=C2=A0=C2=B7=C2=A0=C2=A0 <a href=3D"https://www.linkedin.com/job-alert=
+-email-unsubscribe?savedSearchId=3D5563015601&amp;lipi=3Dredacted&amp;midToke=
+n=3Dredacted&amp;midSig=3Dredacted&amp;ek=3Demail_job_alert_digest_01&amp;e=
+=3Dd46cnt-mwaifyid-9c&amp;eid=3Dredacted&amp;m=3Dunsubscribe&amp;ts=3DfooterG=
+limmer&amp;li=3D0&amp;t=3Dplh" target=3D"_blank" class=3D"text-inherit underl=
+ine" style=3D"cursor: pointer; display: inline-block; text-decoration: none; =
+-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; t=
+ext-decoration-line: underline;">Unsubscribe</a> =C2=A0=C2=A0=C2=B7=C2=A0=C2=
+=A0 <a href=3D"https://www.linkedin.com/help/linkedin/answer/67?lang=3Den&amp=
+;lipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dredacted&amp;trk=3Dreda=
+cted&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpToken=3Dredacted" targ=
+et=3D"_blank" data-test-help-link class=3D"text-inherit underline" style=3D"c=
+ursor: pointer; display: inline-block; text-decoration: none; -webkit-text-si=
+ze-adjust: 100%; -ms-text-size-adjust: 100%; color: inherit; text-decoration-=
+line: underline;">Help</a> </td> </tr> <tr> <td class=3D"pb-1" style=3D"-webk=
+it-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt;=
+ mso-table-rspace: 0pt; padding-bottom: 8px;"> <a href=3D"https://www.linkedi=
+n.com/comm/feed/?lipi=3Dredacted&amp;midToken=3Dredacted&amp;midSig=3Dredacte=
+d&amp;trk=3Dredacted&amp;trkEmail=3Dredacted&amp;eid=3Dredacted&amp;otpToken=
+=3Dredacted" target=3D"_blank" style=3D"color: #0a66c2; cursor: pointer; disp=
+lay: inline-block; text-decoration: none; -webkit-text-size-adjust: 100%; -ms=
+-text-size-adjust: 100%;"> <img src=3D"https://static.licdn.com/aero-v1/sc/h/=
+9ehe6n39fa07dc5edzv0rla4e" alt=3D"LinkedIn" class=3D"block h-[14px] w-[56px] =
+image-rendering-crisp" style=3D"outline: none; text-decoration: none; image-r=
+endering: -moz-crisp-edges; image-rendering: -o-crisp-edges; image-rendering:=
+ -webkit-optimize-contrast; image-rendering: crisp-edges; -ms-interpolation-m=
+ode: nearest-neighbor; display: block; height: 14px; width: 56px;" width=3D"5=
+6" height=3D"14"> </a> </td> </tr> <tr> <td data-test-copyright-text style=3D=
+"-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace=
+: 0pt; mso-table-rspace: 0pt;"> =C2=A9 2026 LinkedIn Corporation, 1&zwnj;000 =
+West Maude Avenue, Sunnyvale, CA 94085. <span data-test-trademarks-text> Link=
+edIn and the LinkedIn logo are registered trademarks of LinkedIn. </span> </t=
+d> </tr> </tbody> </table> </td> </tr> </tbody> </table> </td> </tr> </tbody>=
+ </table> </body> </html>
+
+------=_Part_3401761_1188968810.1794304285333--

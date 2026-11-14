@@ -1,0 +1,53 @@
+/*
+ * Design tokens. The only file in the app that names a color.
+ * Light is the default; `[data-theme="dark"]` on <html> flips the palette.
+ */
+:root {
+  --bg: #ffffff;
+  --bg-subtle: #f8fafc;
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --text-muted: #475569;
+  --accent: #0f766e;
+  --accent-hover: #115e59;
+  --accent-subtle: #f0fdfa;
+  --on-accent: #ffffff;
+  --strong-fg: #15803d;
+  --strong-bg: #f0fdf4;
+  --strong-border: #bbf7d0;
+  --partial-fg: #92400e;
+  --partial-bg: #fffbeb;
+  --partial-border: #fde68a;
+  --gap-fg: #b91c1c;
+  --gap-bg: #fef2f2;
+  --gap-border: #fecaca;
+  --unstable-fg: #334155;
+  --unstable-bg: #f1f5f9;
+  --danger: #b91c1c;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --bg-subtle: #111c33;
+  --border: #1e293b;
+  --text: #f1f5f9;
+  --text-muted: #94a3b8;
+  --accent: #2dd4bf;
+  --accent-hover: #5eead4;
+  --accent-subtle: #042f2e;
+  --on-accent: #042f2e;
+  --strong-fg: #4ade80;
+  --strong-bg: #052e16;
+  --strong-border: #166534;
+  --partial-fg: #fbbf24;
+  --partial-bg: #451a03;
+  --partial-border: #92400e;
+  --gap-fg: #f87171;
+  --gap-bg: #450a0a;
+  --gap-border: #991b1b;
+  --unstable-fg: #cbd5e1;
+  --unstable-bg: #1e293b;
+  --danger: #f87171;
+  color-scheme: dark;
+}
